@@ -3,8 +3,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
   <title>Raul Bermejo</title>
-  <subtitle>A passionate data professional with 3+ years of academic and industry experience in data science and engineering.  I thrive by using predictive analytics and AI/ML to solve real world problems that produce insights for organizations.</subtitle>
-  <updated>2022-08-01T18:19:54+10:00</updated>
+  <subtitle>
+Hi</subtitle>
+  <updated>2022-08-01T19:10:54+10:00</updated>
   <author>
     <name>Raul Bermejo</name>
     <uri>http://localhost:4000/</uri>
