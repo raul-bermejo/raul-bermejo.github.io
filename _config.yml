@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: 'https://raul-bermejo.github.io/'
+baseurl: ''
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   A passionate data professional with 3+ years of academic and industry experience in data science and engineering. 
   I thrive by using predictive analytics and AI/ML to solve real world problems that produce insights for organizations.
 
-url: 'https://raul-bermejo.github.io/'
+url: 'https://raul-bermejo.github.io'
 
 github:
   username: raul-bermejo             
@@ -38,10 +38,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Raul Bermejo
-  email: raulbv.personal@gmail.com             
+  email: raulbv.personal@gmail.com  
+  links:           
     # The first element serves as the copyright owner's link
     - https://github.com/raul-bermejo       
-    - https://www.linkedin.com/in/raul-bermejo-059b94208/
+    - https://www.linkedin.com/in/raul-bermejo-059b94208
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
@@ -78,7 +79,7 @@ theme_mode:  light
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/face_image.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
