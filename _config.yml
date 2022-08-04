@@ -23,14 +23,11 @@ timezone: Australia/Brisbane
 
 title: Raul Bermejo                          # the main title
 
-tagline: Data Scientist | Fellow at Good Data Institute # it will display as the sub-title
+tagline: Data Science Freelancer | Fellow @ Good Data Institute # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  
-  Hi
-  
-# A passionate data professional with 3+ years of academic and industry experience in data science and engineering. 
-# I thrive by using predictive analytics and AI/ML to solve real world problems that produce insights for organizations.
+
+  Raul's personal website and portfolio  
 
 url: 'https://raul-bermejo.github.io'
 
