@@ -5,7 +5,7 @@
   <title>Raul Bermejo</title>
   <subtitle>
 Raul's personal website and portfolio  </subtitle>
-  <updated>2022-08-06T18:07:59+10:00</updated>
+  <updated>2022-08-06T20:29:49+10:00</updated>
   <author>
     <name>Raul Bermejo</name>
     <uri>http://localhost:4000/</uri>
@@ -22,13 +22,13 @@ Raul's personal website and portfolio  </subtitle>
   
   <entry>
     <title>NLP analysis on SMS text - part II</title>
-    <link href="http://localhost:4000/posts/nlp-sms-vol2/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part II" />
+    <link href="http://localhost:4000/posts/nlp-sms-part2/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part II" />
     <published>2022-08-04T20:34:00+10:00</published>
   
     <updated>2022-08-04T20:34:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/nlp-sms-vol2/</id>
-    <content src="http://localhost:4000/posts/nlp-sms-vol2/" />
+    <id>http://localhost:4000/posts/nlp-sms-part2/</id>
+    <content src="http://localhost:4000/posts/nlp-sms-part2/" />
     <author>
       <name>raul</name>
     </author>
@@ -47,13 +47,13 @@ Raul's personal website and portfolio  </subtitle>
 
 
 
-      In the first part of this Natural Language Processing (NLP) series, we pre-processed a SMS dataset using spaCy. In this post, I’ll use the NLP library nltk to extract some insights from the dataset.
+      In the first part of this Natural Language Processing (NLP) series, I pre-processed a SMS dataset using spaCy. In this post, I’ll use the Python library sklearn to extract some insights from the dataset.
 
 Because we have a text-based dataset, we need to turn words into numerical objects to carry out our analysis. This leads us to the concept of vectorisation.
 
 Vectorisation
 
-In NLP, vectorisation is...
+In NLP, vectorisati...
     </summary>
   
 
@@ -62,13 +62,13 @@ In NLP, vectorisation is...
   
   <entry>
     <title>NLP analysis on SMS text - part I</title>
-    <link href="http://localhost:4000/posts/nlp-sms-vol1/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part I" />
+    <link href="http://localhost:4000/posts/nlp-sms-part1/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part I" />
     <published>2022-08-03T20:34:00+10:00</published>
   
     <updated>2022-08-03T20:34:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/nlp-sms-vol1/</id>
-    <content src="http://localhost:4000/posts/nlp-sms-vol1/" />
+    <id>http://localhost:4000/posts/nlp-sms-part1/</id>
+    <content src="http://localhost:4000/posts/nlp-sms-part1/" />
     <author>
       <name>raul</name>
     </author>

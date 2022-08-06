@@ -1,2 +1,0 @@
-I"g<p>In the <a href="/posts/nlp-sms-vol1/">first part of this Natural Language Processing (NLP) series</a>, we pre-processed a SMS dataset using <code class="language-plaintext highlighter-rouge">spaCy</code>. In this post, I’ll use the NLP library <code class="language-plaintext highlighter-rouge">nltk</code> to extract some insights from the dataset.</p>
-:ET
