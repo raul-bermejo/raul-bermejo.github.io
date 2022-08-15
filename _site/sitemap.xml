@@ -14,15 +14,15 @@
 </url>
 <url>
 <loc>http://localhost:4000/categories/</loc>
-<lastmod>2022-08-07T11:20:25+10:00</lastmod>
+<lastmod>2022-08-15T21:52:12+10:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/cv/</loc>
-<lastmod>2022-08-07T11:20:25+10:00</lastmod>
+<lastmod>2022-08-15T21:52:12+10:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
-<lastmod>2022-08-07T11:20:25+10:00</lastmod>
+<lastmod>2022-08-15T21:52:12+10:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -38,6 +38,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/pdf/CV.pdf</loc>
-<lastmod>2022-08-03T20:24:08+10:00</lastmod>
+<lastmod>2022-08-15T21:51:55+10:00</lastmod>
 </url>
 </urlset>
