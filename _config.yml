@@ -24,7 +24,9 @@ timezone: Australia/Brisbane
 
 title: Raul Bermejo                          # the main title
 
-tagline: Data Science Freelancer | Fellow @ Good Data Institute # it will display as the sub-title
+tagline: |+
+ Data Engineer @ Versent (AU)
+ Fellow @ Good Data Institute
 
 description: >-                        # used by seo meta and the atom feed
 
