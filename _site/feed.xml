@@ -5,7 +5,7 @@
   <title>Raul Bermejo</title>
   <subtitle>
 Raul's personal website and portfolio  </subtitle>
-  <updated>2023-10-12T15:27:08+10:00</updated>
+  <updated>2023-10-12T15:34:40+10:00</updated>
   <author>
     <name>Raul Bermejo</name>
     <uri>http://localhost:4000/</uri>
@@ -25,7 +25,7 @@ Raul's personal website and portfolio  </subtitle>
     <link href="http://localhost:4000/posts/fml-part1/" rel="alternate" type="text/html" title="The Productionisation of AI/ML - ‘The Golden Era’ or ‘The Wild West’?" />
     <published>2022-10-17T11:00:00+10:00</published>
   
-    <updated>2022-10-17T11:00:00+10:00</updated>
+    <updated>2023-10-12T15:27:31+10:00</updated>
   
     <id>http://localhost:4000/posts/fml-part1/</id>
     <content src="http://localhost:4000/posts/fml-part1/" />
@@ -49,7 +49,8 @@ Raul's personal website and portfolio  </subtitle>
 
       
 
-*Picture taken in Aotearoa New Zealand*
+Picture taken in Aotearoa New Zealand
+ 
 
 Data Science has come to permeate almost every aspect of our society. Machine Learning and Artificial Intelligence (AI/ML) algorithms are being deployed at scale to facilitate our daily lives. Whether it’s filtering our spam emails, giving us directions, or nudging what we watch on streaming platforms, this technology has integrated seamlessly with our...
     </summary>
