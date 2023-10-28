@@ -1,0 +1,2 @@
+I"m<p>In the <a href="/posts/nlp-sms-part1/">first part of this Natural Language Processing (NLP) series</a>, I pre-processed a SMS dataset using <code class="language-plaintext highlighter-rouge">spaCy</code>. In this post, I’ll use the Python library <code class="language-plaintext highlighter-rouge">sklearn</code> to extract some insights from the dataset.</p>
+:ET

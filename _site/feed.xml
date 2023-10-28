@@ -1,0 +1,221 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Raul Bermejo</title>
+  <subtitle>
+Raul's personal website and portfolio  </subtitle>
+  <updated>2023-10-28T11:26:15+10:00</updated>
+  <author>
+    <name>Raul Bermejo</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2023 Raul Bermejo </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>AI &amp; Morality - What is Algorithmic Fairness?</title>
+    <link href="http://localhost:4000/posts/fml-part2/" rel="alternate" type="text/html" title="AI &amp; Morality - What is Algorithmic Fairness?" />
+    <published>2023-06-07T11:00:00+10:00</published>
+  
+    <updated>2023-06-07T11:00:00+10:00</updated>
+  
+    <id>http://localhost:4000/posts/fml-part2/</id>
+    <content src="http://localhost:4000/posts/fml-part2/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This blogpost was originally released through the Good Data Institute (GDI), where I work as a Fellow to to give not-for-profits access to data analytics support &amp;amp; tools for social and environmental good. If you’d like to learn more about GDI, check their website here.
+
+
+
+Picture taken in Aotearoa New Zealand
+ 
+
+
+  If you are arrested in the U.S. today, COMPAS or an algorithm like it will l...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The Productionisation of AI/ML - ‘The Golden Era’ or ‘The Wild West’?</title>
+    <link href="http://localhost:4000/posts/fml-part1/" rel="alternate" type="text/html" title="The Productionisation of AI/ML - ‘The Golden Era’ or ‘The Wild West’?" />
+    <published>2022-10-17T11:00:00+10:00</published>
+  
+    <updated>2023-10-26T11:21:13+10:00</updated>
+  
+    <id>http://localhost:4000/posts/fml-part1/</id>
+    <content src="http://localhost:4000/posts/fml-part1/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This blogpost was originally released through the Good Data Institute (GDI), where I work as a Fellow to to give not-for-profits access to data analytics support &amp;amp; tools for social and environmental good. If you’d like to learn more about GDI, check their website here.
+
+
+
+Picture taken in Aotearoa New Zealand
+ 
+
+Data Science has come to permeate almost every aspect of our society. Machine L...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>NLP analysis on SMS text - part II</title>
+    <link href="http://localhost:4000/posts/nlp-sms-part2/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part II" />
+    <published>2022-08-04T20:34:00+10:00</published>
+  
+    <updated>2023-10-26T11:21:13+10:00</updated>
+  
+    <id>http://localhost:4000/posts/nlp-sms-part2/</id>
+    <content src="http://localhost:4000/posts/nlp-sms-part2/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="data-portfolio" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In the first part of this Natural Language Processing (NLP) series, I pre-processed a SMS dataset using spaCy. In this post, I’ll use the Python library sklearn to extract some insights from the dataset.
+
+Because we have a text-based dataset, we need to turn words into numerical objects to carry out our analysis. This leads us to the concept of vectorisation.
+
+Vectorisation
+
+In NLP, vectorisati...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>NLP analysis on SMS text - part I</title>
+    <link href="http://localhost:4000/posts/nlp-sms-part1/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part I" />
+    <published>2022-08-03T20:34:00+10:00</published>
+  
+    <updated>2023-10-26T11:21:13+10:00</updated>
+  
+    <id>http://localhost:4000/posts/nlp-sms-part1/</id>
+    <content src="http://localhost:4000/posts/nlp-sms-part1/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="data-portfolio" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In this project, I’ll be using Natural Language Processing (NLP) to study an SMS dataset. I’m interested to understand whether NLP can tell us something about the nature of SMS.
+
+For the chosen dataset, I hope to answer some of the following questions:
+
+
+  What words are used most frequently in English SMS texting?
+  Is NLP a good tool to study short text like SMS?
+  What’s the main sentiment(s...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Welcome!</title>
+    <link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="Welcome!" />
+    <published>2022-08-03T09:49:00+10:00</published>
+  
+    <updated>2023-10-26T11:21:13+10:00</updated>
+  
+    <id>http://localhost:4000/posts/welcome/</id>
+    <content src="http://localhost:4000/posts/welcome/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Hey 👋 welcome to my personal wesbsite and Data Science portfolio! I’ll also aim to blog sporadically here about the data landscape, especially around responsible use of data and ML.
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
