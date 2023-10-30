@@ -5,7 +5,7 @@
   <title>Raul Bermejo</title>
   <subtitle>
 Raul's personal website and portfolio  </subtitle>
-  <updated>2023-10-28T11:26:15+10:00</updated>
+  <updated>2023-10-30T19:44:24+10:00</updated>
   <author>
     <name>Raul Bermejo</name>
     <uri>http://localhost:4000/</uri>
@@ -18,6 +18,49 @@ Raul's personal website and portfolio  </subtitle>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Nesher Bari Intro - Exploratory Data Analysis</title>
+    <link href="http://localhost:4000/posts/nesher-bari-part2/" rel="alternate" type="text/html" title="Nesher Bari Intro - Exploratory Data Analysis" />
+    <published>2023-08-23T11:00:00+10:00</published>
+  
+    <updated>2023-08-23T11:00:00+10:00</updated>
+  
+    <id>http://localhost:4000/posts/nesher-bari-part2/</id>
+    <content src="http://localhost:4000/posts/nesher-bari-part2/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="portfolio" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In the previous part of this series, we introduced the Nesher Bari project, with the aim of building an ML classifier for vulture conservation.
+In this post, we dive into more technical details and explore one of the main datasets in the project: the Ornitela dataset.
+
+import libraries
+
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from jupyterthemes import...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -63,11 +106,54 @@ Picture taken in Aotearoa New Zealand
 
   
   <entry>
+    <title>Nesher Bari Intro - Using Machine Learning for Vulture Conservation</title>
+    <link href="http://localhost:4000/posts/nesher-bari-part1/" rel="alternate" type="text/html" title="Nesher Bari Intro - Using Machine Learning for Vulture Conservation" />
+    <published>2023-05-18T11:00:00+10:00</published>
+  
+    <updated>2023-05-18T11:00:00+10:00</updated>
+  
+    <id>http://localhost:4000/posts/nesher-bari-part1/</id>
+    <content src="http://localhost:4000/posts/nesher-bari-part1/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="portfolio" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This blogpost was originally released through Widlife.ai, where I have contributed as a Data Ranger. If you’d like to learn more about Wildlife.ai’s mission of using AI/ML for nature conservation, check their website here.
+
+
+
+Griffon vulture (gyps fulvus) in flight at Gamla nature reserve. Photograph by Вых Пыхманн.
+ 
+
+Nature’s ​​Sanitisers
+
+Scavengers, and vultures in particular, provide an im...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>The Productionisation of AI/ML - ‘The Golden Era’ or ‘The Wild West’?</title>
     <link href="http://localhost:4000/posts/fml-part1/" rel="alternate" type="text/html" title="The Productionisation of AI/ML - ‘The Golden Era’ or ‘The Wild West’?" />
     <published>2022-10-17T11:00:00+10:00</published>
   
-    <updated>2023-10-26T11:21:13+10:00</updated>
+    <updated>2023-10-28T11:31:49+10:00</updated>
   
     <id>http://localhost:4000/posts/fml-part1/</id>
     <content src="http://localhost:4000/posts/fml-part1/" />
@@ -108,7 +194,7 @@ Data Science has come to permeate almost every aspect of our society. Machine L.
     <link href="http://localhost:4000/posts/nlp-sms-part2/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part II" />
     <published>2022-08-04T20:34:00+10:00</published>
   
-    <updated>2023-10-26T11:21:13+10:00</updated>
+    <updated>2023-10-28T11:31:49+10:00</updated>
   
     <id>http://localhost:4000/posts/nlp-sms-part2/</id>
     <content src="http://localhost:4000/posts/nlp-sms-part2/" />
@@ -137,80 +223,6 @@ Because we have a text-based dataset, we need to turn words into numerical objec
 Vectorisation
 
 In NLP, vectorisati...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>NLP analysis on SMS text - part I</title>
-    <link href="http://localhost:4000/posts/nlp-sms-part1/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part I" />
-    <published>2022-08-03T20:34:00+10:00</published>
-  
-    <updated>2023-10-26T11:21:13+10:00</updated>
-  
-    <id>http://localhost:4000/posts/nlp-sms-part1/</id>
-    <content src="http://localhost:4000/posts/nlp-sms-part1/" />
-    <author>
-      <name>raul</name>
-    </author>
-
-  
-    
-    <category term="data-portfolio" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In this project, I’ll be using Natural Language Processing (NLP) to study an SMS dataset. I’m interested to understand whether NLP can tell us something about the nature of SMS.
-
-For the chosen dataset, I hope to answer some of the following questions:
-
-
-  What words are used most frequently in English SMS texting?
-  Is NLP a good tool to study short text like SMS?
-  What’s the main sentiment(s...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Welcome!</title>
-    <link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="Welcome!" />
-    <published>2022-08-03T09:49:00+10:00</published>
-  
-    <updated>2023-10-26T11:21:13+10:00</updated>
-  
-    <id>http://localhost:4000/posts/welcome/</id>
-    <content src="http://localhost:4000/posts/welcome/" />
-    <author>
-      <name>raul</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Hey 👋 welcome to my personal wesbsite and Data Science portfolio! I’ll also aim to blog sporadically here about the data landscape, especially around responsible use of data and ML.
-
     </summary>
   
 
