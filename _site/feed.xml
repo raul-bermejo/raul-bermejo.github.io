@@ -5,7 +5,7 @@
   <title>Raul Bermejo</title>
   <subtitle>
 Raul's personal website and portfolio  </subtitle>
-  <updated>2022-10-14T07:54:21+10:00</updated>
+  <updated>2023-11-01T13:49:11+10:00</updated>
   <author>
     <name>Raul Bermejo</name>
     <uri>http://localhost:4000/</uri>
@@ -14,28 +14,28 @@ Raul's personal website and portfolio  </subtitle>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
-  <rights> © 2022 Raul Bermejo </rights>
+  <rights> © 2023 Raul Bermejo </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>NLP analysis on SMS text - part II</title>
-    <link href="http://localhost:4000/posts/nlp-sms-part2/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part II" />
-    <published>2022-08-04T20:34:00+10:00</published>
+    <title>Nesher Bari - Data Preparation</title>
+    <link href="http://localhost:4000/posts/nesher_bari-part3/" rel="alternate" type="text/html" title="Nesher Bari - Data Preparation" />
+    <published>2023-10-15T11:00:00+10:00</published>
   
-    <updated>2022-08-04T20:34:00+10:00</updated>
+    <updated>2023-10-15T11:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/nlp-sms-part2/</id>
-    <content src="http://localhost:4000/posts/nlp-sms-part2/" />
+    <id>http://localhost:4000/posts/nesher_bari-part3/</id>
+    <content src="http://localhost:4000/posts/nesher_bari-part3/" />
     <author>
       <name>raul</name>
     </author>
 
   
     
-    <category term="data-portfolio" />
+    <category term="portfolio" />
     
   
 
@@ -47,13 +47,16 @@ Raul's personal website and portfolio  </subtitle>
 
 
 
-      In the first part of this Natural Language Processing (NLP) series, I pre-processed a SMS dataset using spaCy. In this post, I’ll use the Python library sklearn to extract some insights from the dataset.
+      In the previous two parts of this series, we introduced the Nesher Bari project and dived into an Exploratory Data Analysis (EDA) of one of the main datasets.
+In this post, I will walk through how we can prepare and clean the dataset, so it is ready for ingestion by an AI/ML model.
 
-Because we have a text-based dataset, we need to turn words into numerical objects to carry out our analysis. This leads us to the concept of vectorisation.
+import libraries
 
-Vectorisation
-
-In NLP, vectorisati...
+import pandas as pd
+import numpy as np
+import os
+from functools import reduce
+from IPython.disp...
     </summary>
   
 
@@ -61,21 +64,21 @@ In NLP, vectorisati...
 
   
   <entry>
-    <title>NLP analysis on SMS text - part I</title>
-    <link href="http://localhost:4000/posts/nlp-sms-part1/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part I" />
-    <published>2022-08-03T20:34:00+10:00</published>
+    <title>Nesher Bari - Exploratory Data Analysis</title>
+    <link href="http://localhost:4000/posts/nesher_bari-part2/" rel="alternate" type="text/html" title="Nesher Bari - Exploratory Data Analysis" />
+    <published>2023-08-23T11:00:00+10:00</published>
   
-    <updated>2022-08-03T20:34:00+10:00</updated>
+    <updated>2023-08-23T11:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/nlp-sms-part1/</id>
-    <content src="http://localhost:4000/posts/nlp-sms-part1/" />
+    <id>http://localhost:4000/posts/nesher_bari-part2/</id>
+    <content src="http://localhost:4000/posts/nesher_bari-part2/" />
     <author>
       <name>raul</name>
     </author>
 
   
     
-    <category term="data-portfolio" />
+    <category term="portfolio" />
     
   
 
@@ -87,14 +90,15 @@ In NLP, vectorisati...
 
 
 
-      In this project, I’ll be using Natural Language Processing (NLP) to study an SMS dataset. I’m interested to understand whether NLP can tell us something about the nature of SMS.
+      In the previous part of this series, we introduced the Nesher Bari project, which aims to build an ML solution to accelerate vulture conservation (see more details in Wildlife.ai’s website).
+In this post, we dive into more technical details and explore one of the main datasets in the project: the Ornitela dataset.
 
-For the chosen dataset, I hope to answer some of the following questions:
+import libraries
 
-
-  What words are used most frequently in English SMS texting?
-  Is NLP a good tool to study short text like SMS?
-  What’s the main sentiment(s...
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+...
     </summary>
   
 
@@ -102,19 +106,21 @@ For the chosen dataset, I hope to answer some of the following questions:
 
   
   <entry>
-    <title>Welcome!</title>
-    <link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="Welcome!" />
-    <published>2022-08-03T09:49:00+10:00</published>
+    <title>AI &amp; Morality - What is Algorithmic Fairness?</title>
+    <link href="http://localhost:4000/posts/fml-part2/" rel="alternate" type="text/html" title="AI &amp; Morality - What is Algorithmic Fairness?" />
+    <published>2023-06-07T11:00:00+10:00</published>
   
-    <updated>2022-08-03T09:49:00+10:00</updated>
+    <updated>2023-06-07T11:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/welcome/</id>
-    <content src="http://localhost:4000/posts/welcome/" />
+    <id>http://localhost:4000/posts/fml-part2/</id>
+    <content src="http://localhost:4000/posts/fml-part2/" />
     <author>
       <name>raul</name>
     </author>
 
   
+    
+    <category term="blog" />
     
   
 
@@ -126,8 +132,99 @@ For the chosen dataset, I hope to answer some of the following questions:
 
 
 
-      Hey 👋 welcome to my personal wesbsite and Data Science portfolio! I’ll also aim to blog sporadically here about the data landscape, especially around responsible use of data and ML.
+      This blogpost was originally released through the Good Data Institute (GDI), where I work as a Fellow to to give not-for-profits access to data analytics support &amp;amp; tools for social and environmental good. If you’d like to learn more about GDI, check their website here.
 
+
+
+Picture taken in Aotearoa New Zealand
+ 
+
+
+  If you are arrested in the U.S. today, COMPAS or an algorithm like it will l...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Nesher Bari Intro - Using Machine Learning for Vulture Conservation</title>
+    <link href="http://localhost:4000/posts/nesher_bari-part1/" rel="alternate" type="text/html" title="Nesher Bari Intro - Using Machine Learning for Vulture Conservation" />
+    <published>2023-05-18T11:00:00+10:00</published>
+  
+    <updated>2023-05-18T11:00:00+10:00</updated>
+  
+    <id>http://localhost:4000/posts/nesher_bari-part1/</id>
+    <content src="http://localhost:4000/posts/nesher_bari-part1/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="portfolio" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This blogpost was originally released through Widlife.ai, where I have contributed as a Data Ranger. If you’d like to learn more about Wildlife.ai’s mission of using AI/ML for nature conservation, check their website here.
+
+
+
+Griffon vulture (gyps fulvus) in flight at Gamla nature reserve. Photograph by Вых Пыхманн.
+ 
+
+Nature’s ​​Sanitisers
+
+Scavengers, and vultures in particular, provide an im...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The Productionisation of AI/ML - ‘The Golden Era’ or ‘The Wild West’?</title>
+    <link href="http://localhost:4000/posts/fml-part1/" rel="alternate" type="text/html" title="The Productionisation of AI/ML - ‘The Golden Era’ or ‘The Wild West’?" />
+    <published>2022-10-17T11:00:00+10:00</published>
+  
+    <updated>2023-10-28T11:31:49+10:00</updated>
+  
+    <id>http://localhost:4000/posts/fml-part1/</id>
+    <content src="http://localhost:4000/posts/fml-part1/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This blogpost was originally released through the Good Data Institute (GDI), where I work as a Fellow to to give not-for-profits access to data analytics support &amp;amp; tools for social and environmental good. If you’d like to learn more about GDI, check their website here.
+
+
+
+Picture taken in Aotearoa New Zealand
+ 
+
+Data Science has come to permeate almost every aspect of our society. Machine L...
     </summary>
   
 
