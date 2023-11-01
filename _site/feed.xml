@@ -5,7 +5,7 @@
   <title>Raul Bermejo</title>
   <subtitle>
 Raul's personal website and portfolio  </subtitle>
-  <updated>2023-10-30T19:44:24+10:00</updated>
+  <updated>2023-11-01T13:49:11+10:00</updated>
   <author>
     <name>Raul Bermejo</name>
     <uri>http://localhost:4000/</uri>
@@ -21,14 +21,14 @@ Raul's personal website and portfolio  </subtitle>
 
   
   <entry>
-    <title>Nesher Bari Intro - Exploratory Data Analysis</title>
-    <link href="http://localhost:4000/posts/nesher-bari-part2/" rel="alternate" type="text/html" title="Nesher Bari Intro - Exploratory Data Analysis" />
-    <published>2023-08-23T11:00:00+10:00</published>
+    <title>Nesher Bari - Data Preparation</title>
+    <link href="http://localhost:4000/posts/nesher_bari-part3/" rel="alternate" type="text/html" title="Nesher Bari - Data Preparation" />
+    <published>2023-10-15T11:00:00+10:00</published>
   
-    <updated>2023-08-23T11:00:00+10:00</updated>
+    <updated>2023-10-15T11:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/nesher-bari-part2/</id>
-    <content src="http://localhost:4000/posts/nesher-bari-part2/" />
+    <id>http://localhost:4000/posts/nesher_bari-part3/</id>
+    <content src="http://localhost:4000/posts/nesher_bari-part3/" />
     <author>
       <name>raul</name>
     </author>
@@ -47,7 +47,50 @@ Raul's personal website and portfolio  </subtitle>
 
 
 
-      In the previous part of this series, we introduced the Nesher Bari project, with the aim of building an ML classifier for vulture conservation.
+      In the previous two parts of this series, we introduced the Nesher Bari project and dived into an Exploratory Data Analysis (EDA) of one of the main datasets.
+In this post, I will walk through how we can prepare and clean the dataset, so it is ready for ingestion by an AI/ML model.
+
+import libraries
+
+import pandas as pd
+import numpy as np
+import os
+from functools import reduce
+from IPython.disp...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Nesher Bari - Exploratory Data Analysis</title>
+    <link href="http://localhost:4000/posts/nesher_bari-part2/" rel="alternate" type="text/html" title="Nesher Bari - Exploratory Data Analysis" />
+    <published>2023-08-23T11:00:00+10:00</published>
+  
+    <updated>2023-08-23T11:00:00+10:00</updated>
+  
+    <id>http://localhost:4000/posts/nesher_bari-part2/</id>
+    <content src="http://localhost:4000/posts/nesher_bari-part2/" />
+    <author>
+      <name>raul</name>
+    </author>
+
+  
+    
+    <category term="portfolio" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In the previous part of this series, we introduced the Nesher Bari project, which aims to build an ML solution to accelerate vulture conservation (see more details in Wildlife.ai’s website).
 In this post, we dive into more technical details and explore one of the main datasets in the project: the Ornitela dataset.
 
 import libraries
@@ -55,8 +98,7 @@ import libraries
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-from jupyterthemes import...
+...
     </summary>
   
 
@@ -107,13 +149,13 @@ Picture taken in Aotearoa New Zealand
   
   <entry>
     <title>Nesher Bari Intro - Using Machine Learning for Vulture Conservation</title>
-    <link href="http://localhost:4000/posts/nesher-bari-part1/" rel="alternate" type="text/html" title="Nesher Bari Intro - Using Machine Learning for Vulture Conservation" />
+    <link href="http://localhost:4000/posts/nesher_bari-part1/" rel="alternate" type="text/html" title="Nesher Bari Intro - Using Machine Learning for Vulture Conservation" />
     <published>2023-05-18T11:00:00+10:00</published>
   
     <updated>2023-05-18T11:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/nesher-bari-part1/</id>
-    <content src="http://localhost:4000/posts/nesher-bari-part1/" />
+    <id>http://localhost:4000/posts/nesher_bari-part1/</id>
+    <content src="http://localhost:4000/posts/nesher_bari-part1/" />
     <author>
       <name>raul</name>
     </author>
@@ -183,46 +225,6 @@ Picture taken in Aotearoa New Zealand
  
 
 Data Science has come to permeate almost every aspect of our society. Machine L...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>NLP analysis on SMS text - part II</title>
-    <link href="http://localhost:4000/posts/nlp-sms-part2/" rel="alternate" type="text/html" title="NLP analysis on SMS text - part II" />
-    <published>2022-08-04T20:34:00+10:00</published>
-  
-    <updated>2023-10-28T11:31:49+10:00</updated>
-  
-    <id>http://localhost:4000/posts/nlp-sms-part2/</id>
-    <content src="http://localhost:4000/posts/nlp-sms-part2/" />
-    <author>
-      <name>raul</name>
-    </author>
-
-  
-    
-    <category term="data-portfolio" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In the first part of this Natural Language Processing (NLP) series, I pre-processed a SMS dataset using spaCy. In this post, I’ll use the Python library sklearn to extract some insights from the dataset.
-
-Because we have a text-based dataset, we need to turn words into numerical objects to carry out our analysis. This leads us to the concept of vectorisation.
-
-Vectorisation
-
-In NLP, vectorisati...
     </summary>
   
 
