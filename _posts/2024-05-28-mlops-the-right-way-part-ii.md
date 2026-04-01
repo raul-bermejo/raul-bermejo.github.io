@@ -33,7 +33,7 @@ A **run** corresponds to the code, metadata, and artefacts associated with train
 
 ![png](../../assets/img/mlops/mlflow-experiment.png)
 
-<div align="center">Example of an MLflow experiment and its runs. Image by author.</div>
+<div align="center">Example of an MLflow experiment and its runs.</div>
 &nbsp;
 
 An experiment (demo_fraud-detection in the image above) should represent a business problem (or a part of one) to be solved by an AI/ML model — ideally scoped previously in the Business Goal Framing section of the AI/ML lifecycle. For a more detailed description, see the previous part of this blog series: [Part I]({% post_url 2024-04-11-mlops-the-right-way %}).

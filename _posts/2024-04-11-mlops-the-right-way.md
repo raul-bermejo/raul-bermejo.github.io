@@ -28,7 +28,7 @@ MLOps encompasses different areas of a business: AI/ML, DevOps and Data Engineer
 
 ![png](../../assets/img/mlops/aiml-venn_diagram.png)
 
-<div align="center">MLOps sits at the intersection of AI/ML, DevOps and Data Engineering. Image by author.</div>
+<div align="center">MLOps sits at the intersection of AI/ML, DevOps and Data Engineering.</div>
 &nbsp;
 
 In the last section, I outlined why many AI/ML solutions fail to provide business value. On the bright side, organisations that have embraced MLOps are experiencing improvements in efficiency and delivery. For example, by leveraging MLOps, Uber has been able to empower "a better customer experience, helping prevent safety incidents" while supporting "a large volume of model deployments on a daily basis."
@@ -48,13 +48,13 @@ A crucial concept that drives MLOps into action is the **AI/ML Algorithm Lifecyc
 
 - **Data Processing:** In the words of Amazon's CTO Werner Vogels: 'if you don't have good data, you don't have good AI.' This step entails collecting and cleaning the data so that it's ready to train the AI/ML algorithm.
 
-- **Model Development:** In this step, we train the AI/ML algorithm and evaluate it to understand how well it will do in production — fine-tuning it as needed. For the interested reader, I've written a [more detailed description of model development steps in this blog post]({% post_url 2024-05-28-mlops-the-right-way-part-ii.md %}).
+- **Model Development:** In this step, we train the AI/ML algorithm and evaluate it to understand how well it will do in production — fine-tuning it as needed. For the interested reader, I've written a [more detailed description of model development steps in this blog post]({% post_url 2024-05-28-mlops-the-right-way-part-ii %}).
 
 - **Deployment and Monitoring:** Finally, the model is automatically deployed and monitored in production (ideally through a DevOps pipeline), making predictions and providing business value for the organisation.
 
 The AI/ML lifecycle is an iterative process, allowing for back-and-forth development between steps. In reality, we can break up some of these steps further. However, this picture provides a layperson's overview of how organisations can deliver business value with an AI/ML solution.
 
-Lastly, it is crucial to point out one of the most significant challenges in deploying AI/ML solutions — doing so ethically. Although the AI/ML Lifecycle does not directly tackle ethics and bias, ongoing efforts are addressing this challenge both in industry and academia. In summary, organisations need to be accountable and proactive, driving ethical efforts from moral values and organisational culture. If you're interested in reading further (including tips for organisations to become more data ethics-driven), I've written on ['Fairness in AI/ML' at length in this previous blogpost]({% 2022-10-17-fml-part1.md %}).
+Lastly, it is crucial to point out one of the most significant challenges in deploying AI/ML solutions — doing so ethically. Although the AI/ML Lifecycle does not directly tackle ethics and bias, ongoing efforts are addressing this challenge both in industry and academia. In summary, organisations need to be accountable and proactive, driving ethical efforts from moral values and organisational culture. If you're interested in reading further (including tips for organisations to become more data ethics-driven), I've written on ['Fairness in AI/ML' at length in this previous blogpost]({% post_url 2022-10-17-fml-part1 %}).
 
 ## Summary & Opportunities
 
