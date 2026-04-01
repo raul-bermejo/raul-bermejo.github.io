@@ -62,7 +62,7 @@ Certainly, ethics and fairness should be critical aspects of the AI/ML Lifecycle
 
 ¹ In most standards or documentation regarding MLOps, one rarely finds any mention of aspects such as ethics, autonomy or transparency.
 
-² While I will not dive deeply into bias in this article, I have written a more extensive account of bias in AI/ML for the interested reader.
+² While I will not dive deeply into bias in this article, I have written [a more extensive account of bias in AI/ML for the interested reader here]({% post_url 2022-10-17-fml-part1 %}).
 
 ## Resources
 
