@@ -169,6 +169,9 @@ defaults:
 
 sass:
   style: compressed
+  silence_deprecations:
+    - import
+    - slash-div
 
 compress_html:
   clippings: all
