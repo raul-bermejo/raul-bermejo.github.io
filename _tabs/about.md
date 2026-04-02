@@ -1,7 +1,7 @@
 ---
 title: about me
 icon: fas fa-info-circle
-order: 4
+order: 2
 ---
 
 Hola 👋 I'm a passionate AI/ML professional with academic and industry experience in ML engineering, data science and data engineering. In my work, I've developed AI/ML systems to solve real world problems that produce real value for organisations. I also enjoy crafting data visualisations to enable better data-driven decisions. I am certified in the following:
