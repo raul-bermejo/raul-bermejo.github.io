@@ -1,46 +1,48 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# raul-bermejo.github.io
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+Personal website and portfolio for Raul Bermejo, built with [Jekyll](https://jekyllrb.com/) and the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy).
 
-The Jekyll organization claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
-
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
-
-```shell
-.
-├── _config.yml
-├── _data
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-In order to save your time, and to prevent you from missing some files when copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Live at: [raul-bermejo.github.io](https://raul-bermejo.github.io)
 
 ## Prerequisites
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
+- Ruby (see `.ruby-version` for the expected version)
+- Bundler (`gem install bundler`)
 
-## Installation
+Follow the [Jekyll installation docs](https://jekyllrb.com/docs/installation/) if you need to set up Ruby from scratch.
 
-[**Use this template**][use-template] to generate a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
+## Setup
 
 ```
-$ bundle
+bundle install
 ```
 
-## Usage
+## Local development
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+```
+bundle exec jekyll serve -H 0.0.0.0 --livereload
+```
 
-## License
+The site will be available at `http://localhost:4000`.
 
-This work is published under [MIT][mit] License.
+## Build
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+```
+bundle exec jekyll build
+```
+
+The output is written to `_site/`.
+
+## Roadmaps
+
+- [Production Roadmap](docs/ROADMAP_PRODUCTION.md) - repo hygiene, CI/CD hardening, theme upgrade, SEO, and maintenance
+- [Hosting Roadmap](docs/ROADMAP_HOSTING.md) - custom domain and hosting options with cost comparison
+- [Development Plan](docs/DEVELOPMENT_PLAN.md) - full project audit and requirements
+
+## Upstream theme
+
+This site is based on the [Chirpy Jekyll theme](https://github.com/cotes2020/jekyll-theme-chirpy) by Cotes Chung.
+
+## Licence
+
+This work is published under the [MIT](LICENSE) licence.
