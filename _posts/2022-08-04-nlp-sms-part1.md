@@ -2,7 +2,7 @@
 title: NLP analysis on SMS text - part I
 author: raul
 date: 2022-08-03 18:34:00 +0800
-categories: [data-portfolio]
+categories: [portfolio]
 tags: [nlp, data-science]
 pin: 
 ---

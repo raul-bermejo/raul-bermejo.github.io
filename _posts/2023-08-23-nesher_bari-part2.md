@@ -4,7 +4,7 @@ author: raul
 date: 2023-08-23 9:00:00 +0800
 categories: [portfolio]
 tags: [ai/ml, data-science]
-pin: true
+pin: false
 ---
 
 In the previous part of this series, we introduced the Nesher Bari project, which aims to build an ML solution to accelerate vulture conservation (see [more details in Wildlife.ai's website](https://wildlife.ai/projects/nesher-bari/)).
@@ -30,7 +30,7 @@ if darkmode_on:
 ## Load & Extract Data: Quick Overview
 
 ```python
-df_ornitela_raw = pd.read_csv('./../data/Ornitela_Vultures_Gyps_fulvus_TAU_UCLA_Israel_newer.csv')
+df_ornitela_raw = pd.read_csv('./../data/Ornitela_Vultures_Gyps_fulvus_TAU_UCLA_newer.csv')
 df_ornitela_raw.head()
 ```
 
@@ -102,7 +102,7 @@ df_ornitela_raw.head()
       <td>Gyps fulvus</td>
       <td>202382</td>
       <td>T59w</td>
-      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA_Israel</td>
+      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA</td>
     </tr>
     <tr>
       <th>1</th>
@@ -135,7 +135,7 @@ df_ornitela_raw.head()
       <td>Gyps fulvus</td>
       <td>202382</td>
       <td>T59w</td>
-      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA_Israel</td>
+      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA</td>
     </tr>
     <tr>
       <th>2</th>
@@ -168,7 +168,7 @@ df_ornitela_raw.head()
       <td>Gyps fulvus</td>
       <td>202382</td>
       <td>T59w</td>
-      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA_Israel</td>
+      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA</td>
     </tr>
     <tr>
       <th>3</th>
@@ -201,7 +201,7 @@ df_ornitela_raw.head()
       <td>Gyps fulvus</td>
       <td>202382</td>
       <td>T59w</td>
-      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA_Israel</td>
+      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA</td>
     </tr>
     <tr>
       <th>4</th>
@@ -234,7 +234,7 @@ df_ornitela_raw.head()
       <td>Gyps fulvus</td>
       <td>202382</td>
       <td>T59w</td>
-      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA_Israel</td>
+      <td>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA</td>
     </tr>
   </tbody>
 </table>
@@ -736,7 +736,7 @@ for column in cols_categorical:
   </thead>
   <tbody>
     <tr>
-      <th>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA_Israel</th>
+      <th>Ornitela_Vultures_Gyps_fulvus_TAU_UCLA</th>
       <td>100.0</td>
     </tr>
   </tbody>
@@ -812,14 +812,14 @@ def plot_distributon(
 
 ### Location
 
-We explore the probability distribution of *latitude* and *longitude*. This is important because the INPA only operates in Israel, therefore we wouldn't like the dataset to contain many griffon vultures that flew away from the area.
+We explore the probability distribution of *latitude* and *longitude*. This is important because the INPA only operates in a certain location (Negev desert), therefore we wouldn't like the dataset to contain many griffon vultures that flew away from the area.
 
 ```python
 loc_cols = ['location-long', 'location-lat']
 df_ornitela[loc_cols].describe().apply(lambda s: s.apply('{0:.5f}'.format))
 
-ISRAEL_LAT_RANGE = (29.55805, 33.20733)
-ISRAEL_LONG_RANGE = (34.57149, 35.57212)
+LAT_RANGE = (29.55805, 33.20733)
+LONG_RANGE = (34.57149, 35.57212)
 
 # plot lat and long  distribution
 fig, axs  = plt.subplots(1,2, figsize=(25, 7))
@@ -833,8 +833,8 @@ for i, col in enumerate(loc_cols):
         stat='probability',
         ax=axs[i]
     )
-    axs[0].axvline(ISRAEL_LONG_RANGE[i], color=COLORS[1], linewidth=2)
-    axs[1].axvline(ISRAEL_LAT_RANGE[i], color=COLORS[1], linewidth=2)
+    axs[0].axvline(LONG_RANGE[i], color=COLORS[1], linewidth=2)
+    axs[1].axvline(LAT_RANGE[i], color=COLORS[1], linewidth=2)
 
 plt.tight_layout()
 plt.show()
@@ -842,9 +842,9 @@ plt.show()
 
 ![png](../../assets/img/nesher_bari/output_21_0.png?msec=1698559689963)
 
-Although some griffon vultures flew out of Israel, we can see that the vast majority of records occurred in Israel.
+Although some griffon vultures flew out of the area, we can see that the vast majority of records occurred in the area.
 
-In the future, we could have a more fine-grained analysis to potentially improve the performance of an ML model. This would mainly involve getting rid of events that didn't occur in the Negev desert in Israel, where INPA focuses their conversation efforts.
+In the future, we could have a more fine-grained analysis to potentially improve the performance of an ML model. This would mainly involve getting rid of events that didn't occur in the Negev desert, where INPA focuses their conversation efforts.
 
 ### Height
 

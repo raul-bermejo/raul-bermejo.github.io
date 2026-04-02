@@ -1,0 +1,7 @@
+.ruby-version
+.claude/
+_site/
+.jekyll-cache/
+.sass-cache/
+.vscode/
+_posts/sandbox_editor.md

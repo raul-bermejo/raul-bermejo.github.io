@@ -17,7 +17,7 @@ lang: en
 prefer_datetime_locale: en-au
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Australia/Brisbane
+timezone: Australia/Sydney
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -25,8 +25,8 @@ timezone: Australia/Brisbane
 title: Raul Bermejo                          # the main title
 
 tagline: |+
- Data Engineer @ Versent (AU)
- Fellow @ Good Data Institute
+ Senior ML Engineer @ Mantel
+ Volunteer @ Good Data Institute
 
 description: >-                        # used by seo meta and the atom feed
 
@@ -169,6 +169,9 @@ defaults:
 
 sass:
   style: compressed
+  silence_deprecations:
+    - import
+    - slash-div
 
 compress_html:
   clippings: all
